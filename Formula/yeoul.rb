@@ -1,27 +1,27 @@
 class Yeoul < Formula
   desc "Local-first temporal graph memory engine"
   homepage "https://github.com/mrchypark/yeoul"
-  version "0.7.0"
+  version "0.7.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mrchypark/yeoul/releases/download/v0.7.0/yeoul_0.7.0_darwin_arm64.tar.gz"
-      sha256 "ab4fe02353383f414f90c1bf48fa6936b510978693f3a30849b5e33c2cd71933"
+      url "https://github.com/mrchypark/yeoul/releases/download/v0.7.1/yeoul_0.7.1_darwin_arm64.tar.gz"
+      sha256 "b89b4262a8a943650aef5d5c02ea584377dc61b9f82fd625f013e60576e29bd1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mrchypark/yeoul/releases/download/v0.7.0/yeoul_0.7.0_darwin_amd64.tar.gz"
-      sha256 "3cb2541ced97e9d6c49f76b91e9d1511c6b49fccd6021277d2edae888b33e6d9"
+      url "https://github.com/mrchypark/yeoul/releases/download/v0.7.1/yeoul_0.7.1_darwin_amd64.tar.gz"
+      sha256 "ce62d8d2071238438a9a42f872e6d35e2c678cef8cb059ff9e20b26acd652e75"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mrchypark/yeoul/releases/download/v0.7.0/yeoul_0.7.0_linux_arm64.tar.gz"
-      sha256 "d03e17b06eab3937ee54ae7c81df31375b92dd6d3621d1a8aaadbc4bb8a1ab10"
+      url "https://github.com/mrchypark/yeoul/releases/download/v0.7.1/yeoul_0.7.1_linux_arm64.tar.gz"
+      sha256 "3984951626b0dd826d35c3ff4e0c2154d83cec3cfb4786140102895d15d38458"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mrchypark/yeoul/releases/download/v0.7.0/yeoul_0.7.0_linux_amd64.tar.gz"
-      sha256 "4e0a21b05b32f36e7e1cb6c3137d0c6ff0458819899dc7db6fdbcc8f85c8f1ee"
+      url "https://github.com/mrchypark/yeoul/releases/download/v0.7.1/yeoul_0.7.1_linux_amd64.tar.gz"
+      sha256 "6e2a091a4b1160a6b94700f861f78dda23b7f4f07ff55e71b0bb4da5f3e1edf3"
     end
   end
 
